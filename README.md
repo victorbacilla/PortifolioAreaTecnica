@@ -1,5 +1,5 @@
 # PortifolioAreaTecnica
-Este portifólio apresentará um pouco sobre mim, códigos que sei, no que sou formado, o que gosto de exercer e o conteúdo aprendido durante o Curso Técnico de Tecnologia da Informação do SESI/SENAI-SJ.
+Este portifólio apresentará um pouco sobre Victor Bacilla, códigos que sei, no que sou formado, e o conteúdo aprendido durante o Curso Técnico de Tecnologia da Informação do SESI/SENAI-SJ.
 ## Sobre Victor:
 Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 2A. Estou cursando Tecnologia da Informação no SESI/SENAI-SJ onde busco uma formação na área para uma aprendizagem, e caso eu me interesse por alguma área poder cursá-la no futuro. 
 ## Qualificações: 
