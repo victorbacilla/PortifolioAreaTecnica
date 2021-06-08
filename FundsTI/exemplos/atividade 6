@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "digite um valor."
+read n
+
+if [ $n -gt 0 ]
+then
+      for i in $(seq 1 $n)
+      do
+            echo "$i"
+      done
+elif [ $n -lt 0 ]
+then 
+      echo "digite um valor maior que zero."
+      read y
+      if [ $y -gt 0 ]
+      then
+      
+      for x in $(seq 1 $y)
+      do
+            echo "$x"
+      done
+else
+    echo "o valor informado é menor que zero, execute novamente."
+fi
+fi
