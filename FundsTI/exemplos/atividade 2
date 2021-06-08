@@ -1,0 +1,9 @@
+$!/bin/bash
+echo "digite o ano de seu nascimento."
+read x
+if [ $x -le 2005 ]
+then
+    echo "você poderá votar."
+else 
+    echo "você não poderá votar."
+fi
