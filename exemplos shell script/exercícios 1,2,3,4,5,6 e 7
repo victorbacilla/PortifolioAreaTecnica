@@ -1,0 +1,195 @@
+1:
+#!/bin/sh
+INPUT_STRING=”hello”
+while [[ $INPUT_STRING != "bye" ]]
+do
+  echo "Please type something in (bye to quit)"
+  read INPUT_STRING
+  echo "You typed: $INPUT_STRING"
+done
+
+#linha 1: input_string é uma variável.
+#linha 2: != significa "diferente de".
+#linha 2: enquanto (while) INPUT_STRING for diferente de (!=) "bye" faça:
+#linha 4: escrever "por favor escreva algo. (digite bye para sair)".
+#linha 5: está lendo INPUT_STRING que está sendo digitada.
+#linha6: printa na tela "você escreveu $INPUT_STRING (mensagem)".
+
+2:
+#!/bin/sh
+while read input_text
+do
+  case $input_text in
+        hello)          echo English    ;;
+        howdy)          echo American   ;;
+        gday)           echo Australian ;;
+        bonjour)        echo French     ;;
+        guten tag)      echo German     ;;
+        *)              echo Unknown Language: $input_text
+                ;;
+   esac
+done
+
+#linha0:input_text é uma variável, onde o usuário irá escrever uma palavra e o computador buscará no arquivo myfile.txt.  
+#linha1: enquanto (while) ler input_text(variável), faça:
+#linha2: fazer.
+#linha3: mostra um 'menu' para input_text, com as línguas: ingles, americano,australiano, francês, alemão e língua desconhecida, que é representada por *
+
+
+3:
+#!/bin/sh
+
+echo "Please talk to me ..."
+while true
+do
+  read INPUT_STRING
+  case $INPUT_STRING in
+    hello)
+        echo "Hello yourself!"
+        ;;
+    bye)
+        echo "See you again!"
+        break
+        ;;
+    *)
+        echo "Sorry, I don't understand"
+        ;;
+         esac
+done
+echo
+echo "That's all folks!"
+
+#linha1: printa mensagem
+#linha2: looping infito (while true)
+#linha3: executar.
+#linha4: ler string (input_string)
+#linha5: lendo $input_string e verificando com o conteúdo. 
+#linha6: fechando case
+#!/bin/sh
+
+echo "Please talk to me ..."
+while true
+do
+  read INPUT_STRING
+  case $INPUT_STRING in
+    hello)
+        echo "Hello yourself!"
+        ;;
+    bye)
+        echo "See you again!"
+        break
+        ;;
+    *)
+        echo "Sorry, I don't understand"
+        ;;
+         esac
+done
+echo
+echo "That's all folks!"
+
+#linha1: printa mensagem
+#linha2: looping infito (while true)
+#linha3: executar.
+#linha4: ler string (input_string)
+#linha5: lendo $input_string e verificando com o conteúdo. 
+#linha6: fechando case
+#linha7: echo 'enter'
+#linha8: printou "por hoje é isso pessoal."
+
+
+4:
+#!/bin/bash
+echo "Enter username"
+read username
+echo "Enter password"
+read password
+
+if [[ $username == "admin" && $password == "secret" ]]
+then
+        echo "valid user"
+else
+        echo "invalid user"
+fi
+
+#linha1: printou "coloque seu nome"
+#linha2: lendo "seu nome"
+#linha3: printou "coloque sua senha"
+#linha4: lendo "sua senha"
+#linha5: se (if) $seunome for igual a 'admin', e, $suasenha for igual a 'secreto'. então:
+#linha6: printou "usuário válido"
+#linha7: caso, não:
+#linha8: printou "usuário inválido"
+#linha9: fecha o if
+
+
+5: 
+#!/bin/bash
+Unix=('Debian' 'Red hat' 'Ubuntu' 'Suse' 'Fedora' 'UTS' 'OpenLinux');
+
+echo ${Unix[@]}
+echo '_____________'
+echo ${Unix[@]/Ubuntu/SCO Unix}
+
+#linha1: unix = variável composta por sistema operacionais.
+#linha2: printou a variável unix inteira(@) 
+#linha3: printou "------------------". meio de separação e organização.
+#linha4: printou unix inteiro (@) e substituiu 'unbuntu' por 'SCO unix'
+
+
+
+6:
+#!/bin/bash
+read -p "Digite um numero:" num
+res=1
+while [ $num -gt 0 ]
+do
+        res=$((res*num))
+        num=$((num-1))
+done
+echo $res
+
+criou-se fatorial.sh
+fatorial.sh
+#!/bin/bash
+read -p "Digite um numero:" num
+res=1
+i=0
+while [ $num -gt 0 ]
+do
+        res=$((res*num))
+        fatorial[$i]=$num
+        i=$((i+1))
+        num=$((num-1))
+done
+echo ${fatorial[@]}
+echo $res
+#linha1:ler e printar (opção -p) "digite um numero:" e variável 'num'
+#linha2: criou int res=1
+#linha3: enquanto (while) $num (variável) for maior que (-gt) 0, faça:
+#linha4:executar
+#linha5: int res= $res vezes $num (variável numero)
+#linha6: variável num= $numero-1
+#linha7: pronto
+#linha8: printou $res (resultado)
+#linha9: criou-se fatorial.sh
+
+
+
+
+7:
+#!/bin/bash
+read -p "Digite um numero para ver sua tabuada: " x
+
+for i in $(seq 1 10)
+do
+        res[$i]=$(($x*$i))
+done
+echo ${res[@]}
+
+#linha1: ler e printar (opção -p) "digite um numero para ver sua tabuada:" e variável x
+#linha2: valores para 'i' em $(seq 1 10) (sequencia de 1 a 10)
+#linha3: execute
+#linha4: resultado de $i = $(($x*$i)) variável x vezes i.
+#linha5: pronto
+#linha6: printar $res inteiro(@) (resultado)
+
