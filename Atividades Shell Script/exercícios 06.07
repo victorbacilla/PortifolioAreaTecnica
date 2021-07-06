@@ -58,12 +58,12 @@ ______________________________________________________________________
 3)
 
 #!/bin/bash
-var=$(cat /etc/passwd | grep $1)
+var=$(cat /etc/passwd | grep $1)     #irá listar etc/passwd procurando $1 (grep $1)
 if [ -z $var ] # -z  se a variavel estiver vazia
 then
-        echo "O usuário n existe no sistema"
+        echo "O usuário n existe no sistema"   #caso a variável esteja vazia, o usuário não existe
 else
-        echo "O usuário já está cadastrado"
+        echo "O usuário já está cadastrado"   #caso a variável não esteja vazia, o usuário existe
 fi
 
 
@@ -77,11 +77,11 @@ fi
 ______________________________________________________________________
 4)
 #!/bin/bash
-if [ -z $1 ] #-z se a variável é vazia
+if [ -z $1 ] #-z se a variável é vazia          
 then
-    echo "Erro, arquivo faltando"
+    echo "Erro, arquivo faltando"               #se a variável $1 estiver vazia, o arquivo está faltando algo.
 else
-    cat $1 | grep -i "incerteza" # opção -i ignora a diferença entre maiúsculo e minúsculo
+    cat $1 | grep -i "incerteza"             #cat mostra $1 procurando "incerteza" com grep. #opção -i ignora a diferença entre maiúsculo e minúsculo
 fi
 ------------------------------------------
 Esse é um arquivo exemplo
