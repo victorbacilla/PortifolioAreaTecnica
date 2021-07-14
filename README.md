@@ -16,5 +16,9 @@ Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 2A. Estou cursando T
 
 [Exemplo intrpretador](FundamentosTI/exemplos/segundi.sh)
 
+## logica computacional
+[ExemploLógicaComputacional](lógicacomputacional/códigoslegais.java)
+
 [Exemplo link](FundamentosTI/exemplo.sh)
+
 
