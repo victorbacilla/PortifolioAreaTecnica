@@ -1,0 +1,7 @@
+script 1:
+#!/bin/bash
+cat /etc/passwd | cut -c1-5
+
+script 2:
+#!/bin/bash
+ls -ld $1
