@@ -23,4 +23,5 @@ Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 2A. Estou cursando T
 
 [Exemplo link](FundamentosTI/exemplo.sh)
 
-
+## Prova 10/08
+[Linkscripts](PortifólioAreaTecnica/avaliacao_pratica/scripts1.sh)
