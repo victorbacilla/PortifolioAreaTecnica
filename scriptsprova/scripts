@@ -1,7 +1,31 @@
 script 1:
 #!/bin/bash
-cat /etc/passwd | cut -c1-5
+cat /etc/passwd | cut -f1 
 
 script 2:
+##receber um argumento e dizer se é diretório ou arquivo e mostrar suas permissoes
 #!/bin/bash
-ls -ld $1
+info=$(ls -ld $1) ##diz se é diretorio ou arquivo
+permr=${info:1:1} #permissoes:
+permw=${info:2:1}
+permx=${info:3:1}
+if [[ $permr == "r" ]]  #printa se é arquivo ou diretorio
+then
+  echo "o arquivo/diretório $1 tem permissão para leitura"
+else
+  echo "o arquivo/diretório $1 não tem permissão de leitura"
+fi 
+
+if [[ $permw == "w" ]]
+then 
+  echo "o arquivo/diretório $1 tem permissão para leitura"
+else
+  echo "o arquivo/diretório $1 não tem permissão de leitura"
+fi
+
+if [[ $permx == "x" ]]
+then
+  echo "o arquivo/diretório $1 tem permissão para leitura"
+else
+  echo "o arquivo/diretório $1 não tem permissão de leitura"
+fi 
