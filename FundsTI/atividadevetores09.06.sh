@@ -6,15 +6,15 @@ vetor[1]="vitinho"
 vetor[2]="vitao"
 
 for i in ${vetor[@]}
-do 
+do
     echo "oi, meu nome é $i"
 done
 echo "--------------------------"
 
-parte 2: 
+parte 2:
 i=0
 while [ $i -lt ${#vetor[@]} ]
-do 
+do
      echo "oi, meu nome é $i"
      i=$((i+1))
 done
@@ -35,4 +35,6 @@ do
 done
 tamanhov=$((${#vetor[@]}-1))
 echo "o tamanho é: $tamanhov"
-    
+
+~
+

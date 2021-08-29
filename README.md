@@ -28,6 +28,7 @@ Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 2A. Estou cursando T
 
 ## FUNDS TI
 [Exemplolink](FundamentosTI/exemplo.sh)
-[AtividadeVetores](PortifolioAreaTecnica/FundsTI/'atividade vetores'/'atividade 09.06')
+[ExercíciosdeShellScript](FundsTI/exercícioshellscript06.07.sh)
+[AtividadeVetores](FundsTI/atividadevetores09.06.sh)
 [Exercício Cut](FundsTI/exercíciocut07.07.sh)
 

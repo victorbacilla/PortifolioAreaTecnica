@@ -1,18 +1,15 @@
-Prof eu to fazendo um resumo em uma linha só, citando todas as outras, eu entendo melhor assim.
-
-
 1)
 
 #!/bin/bash   #Interpretador shell
 var=$(ls -ld $1)  #$1 é o primeiro argumento(pode ser enviado mais escrevendo do lado) enviado para o script
 tam=${var:0:1}  # ${nome_variavel:inicio:fim} #(mostra os caracteres desejados)
-if [ $tam = 'd' ] __________
+if [ $tam = 'd' ] ____
 then                       |
         echo "é diretório" |---->#(se o a variável for somente 'd', é um diretório, caso não 'else', é um arquiv
 else                       |
         echo "é arquivo"   |
-fi              ___________|
-_______________________________________________________________
+fi              _____|
+_____________________
 
 2)
 
@@ -33,7 +30,7 @@ then
         echo "Criando arquivo $1"
         touch $1
 fi
-____________________________
+__________
 
 VETOR:
 #!/bin/bash
@@ -41,20 +38,12 @@ var=$(ls)           #a variável será listar
 var1=${var/$1}      #$1 é o primeiro argumento enviado para o script  #(na variável que será listada, será procurado $1)
 if [[ $var != $var1 ]] #caso a var$1 exista, ela será removida, ou seja. $var estará diferente (!=)
 then
-	echo "O arquivo existe"
+        echo "O arquivo existe"
 else
-	echo "Criando o arquivo $1 ..."  #(caso 
-	touch $1
+        echo "Criando o arquivo $1 ..."  #(caso
+        touch $1
 fi
 
-
-
-
-
-
-
-
-______________________________________________________________________
 3)
 
 #!/bin/bash
@@ -74,10 +63,10 @@ fi
 
 
 
-______________________________________________________________________
+________________________
 4)
 #!/bin/bash
-if [ -z $1 ] #-z se a variável é vazia          
+if [ -z $1 ] #-z se a variável é vazia
 then
     echo "Erro, arquivo faltando"               #se a variável $1 estiver vazia, o arquivo está faltando algo.
 else
@@ -87,4 +76,3 @@ fi
 Esse é um arquivo exemplo
 O script que usará este arquivo busca a palavra 'incerteza'
 será que encontrará?
-
