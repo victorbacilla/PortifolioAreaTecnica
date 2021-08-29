@@ -20,15 +20,13 @@ Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 2A. Estou cursando T
 
 ## logica computacional
 [ExemploLógicaComputacional](lógicacomputacional/códigoslegais.java)
+
 [Aprendendo>e<](lógicacomputacional/atividade.java)
+
 [CódigoAprendendoIfScanner](lógicacomputacional/exercício.java)
 
 
-## FundsTI
-[Exemplo link](FundamentosTI/exemplo.sh)
-[Exemplo de vetores](FundsTI/atividade vetores/atividade 09.06)
-[Exemplo de shell script](FundsTI/exemplos shell script/exercícios 1,2,3,4,5,6, e 7)
-[Exemplo de cut](FundsTI/exercício cut/exercício 07.07)
+## FUNDS TI
+[Exemplolink](FundamentosTI/exemplo.sh)
+[AtividadeVetores](FundsTI/'atividade vetores'/'atividade 09.06')
 
-## Prova 10/08
-[Linkscripts](/avaliacao_pratica/scripts1.sh)
