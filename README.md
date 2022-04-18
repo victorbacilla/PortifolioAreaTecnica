@@ -1,5 +1,5 @@
-# PortifolioAreaTecnica
-Este portifólio apresentará um pouco sobre Victor Bacilla, códigos que sei, no que sou formado, e o conteúdo aprendido durante o Curso Técnico de Desenvolvimento de Sistemas do SESI/SENAI-SJ.
+# PortfolioAreaTecnica
+Este portfólio apresentará um pouco sobre Victor Bacilla, códigos que sei, no que sou formado, e o conteúdo aprendido durante o Curso Técnico de Desenvolvimento de Sistemas do SESI/SENAI-SJ.
 ## Sobre Victor:
 Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 3A. Estou cursando Desenvolvimento de Sistemas no SESI/SENAI-SJ onde busco uma formação na área para uma aprendizagem, e caso eu me interesse por alguma área poder cursá-la no futuro. 
 ## Qualificações: 
