@@ -17,7 +17,7 @@ Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 3A. Estou cursando D
 - Representante de sala Escola Sesi Senai-SJ (2022)
 
 
-## logica computacional
+## logica computacional 2A
 [ExemploLógicaComputacional](lógicacomputacional/códigoslegais.java)
 
 [Aprendendo>e<](lógicacomputacional/atividade.java)
@@ -25,11 +25,19 @@ Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 3A. Estou cursando D
 [CódigoAprendendoIfScanner](lógicacomputacional/exercício.java)
 
 
-## FUNDS TI
-[Exemplolink](FundamentosTI/exemplo.sh)
-[ExercíciosdeShellScript](FundsTI/exercícioshellscript06.07.sh)
-[AtividadeVetores](FundsTI/atividadevetores09.06.sh)
-[Exercício Cut](FundsTI/exercíciocut07.07.sh)
-[Exemplo intrpretador](FundamentosTI/exemplos/segundi.sh)
-[link scriptsprova 03/08](PortifólioAreaTecnica/scriptsprova/scripts)
+## FUNDS TI 2A
+- [Exemplolink](FundamentosTI/exemplo.sh)
+
+- [ExercíciosdeShellScript](FundsTI/exercícioshellscript06.07.sh)
+
+- [AtividadeVetores](FundsTI/atividadevetores09.06.sh)
+
+- [Exercício Cut](FundsTI/exercíciocut07.07.sh)
+
+- [Exemplo intrpretador](FundamentosTI/exemplos/segundi.sh)
+
+- [link scriptsprova 03/08](PortifólioAreaTecnica/scriptsprova/scripts)
+
+## Banco de Dados 3A
+
 
