@@ -74,4 +74,4 @@ create table pessoa (
 	data_nascimento date,
 	cod_bilhete int,
 	contato_emergencia varchar
-);
+); 
