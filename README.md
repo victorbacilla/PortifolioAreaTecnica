@@ -18,11 +18,11 @@ Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 3A. Estou cursando D
 
 
 ## logica computacional 2A
-[ExemploLógicaComputacional](lógicacomputacional/códigoslegais.java)
+- [ExemploLógicaComputacional](lógicacomputacional/códigoslegais.java)
 
-[Aprendendo>e<](lógicacomputacional/atividade.java)
+- [Aprendendo>e<](lógicacomputacional/atividade.java)
 
-[CódigoAprendendoIfScanner](lógicacomputacional/exercício.java)
+- [CódigoAprendendoIfScanner](lógicacomputacional/exercício.java)
 
 
 ## FUNDS TI 2A
