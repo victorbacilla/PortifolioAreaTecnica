@@ -1,0 +1,65 @@
+package com.example.aplicativogeometria;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class segundatela extends AppCompatActivity {
+    static int conta;
+    EditText espacovar1, espacovar2, espacovar3;
+    TextView textresposta;
+    double v1, v2, v3; //variaveis criadas para os campos de espacovar
+    int resultado;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_segundatela2);
+        getSupportActionBar().hide();
+        espacovar1 = findViewById(R.id.espacovar1);
+        espacovar2 = findViewById(R.id.espacovar2);
+        espacovar3 = findViewById(R.id.espacovar3);
+        textresposta = findViewById(R.id.textresposta);
+        
+        v1 = double.parseDouble(espacovar1.getText().toString()); //PEGAR VALOR INT E PASSAR PARA TEXTO (IMPORTANTE)
+        v2 = double.parseDouble(espacovar2.getText().toString());
+        v3 = double.parseDouble(espacovar3.getText().toString());
+
+        organizaTela();
+    }
+
+    private void organizaTela() {
+        
+        if (conta == 1) { // para a area total
+            espacovar1.setHint("Digite o numero de faces");
+            espacovar2.setHint("Digite a área da base");
+            textresposta = findViewById(R.id.textresposta)
+            
+            int 
+        } else if (conta == 2) { // para a area da base 
+            espacovar1.setHint("Digite o numero de faces");
+            espacovar2.setHint("Digite a área total");
+        } else if (conta == 3) { // para o numero de lados
+            espacovar1.setHint("Digite a área da base");
+            espacovar2.setHint("Digite a área total");
+            espacovar3.setHint("Digite o numero de faces");
+        } else if (conta == 4) { // para o numero de faces
+            espacovar1.setHint("Digite a área da base");
+            espacovar2.setHint("Digite o numero de lados");
+            espacovar3.setHint("Digite o área total");
+        } else if (conta == 5) { // para o volume
+            espacovar1.setHint("Digite a área da base");
+            espacovar2.setHint("Digite a altura");
+        } else if (conta == 6) { // para a altura
+            espacovar1.setHint("Digite a área da base");
+            espacovar2.setHint("Digite o volume");
+        } else if (conta == 7) { //para area da base segundo tipo
+            espacovar1.setHint("Digite a altura");
+            espacovar2.setHint("Digite o volume");
+        }
+    }
+        public void cliqueBotao(View calcular){
+    }
