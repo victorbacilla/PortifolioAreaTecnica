@@ -1,0 +1,55 @@
+create table nfl(
+	timesNfc varchar, 
+	timesAfc varchar,
+	season varchar primary key, 
+	superbowl varchar,
+	campeaoNfc varchar,
+	campeaoAFc varchar
+	superbowltag varchar foreign key,
+	foreign key (superbowltag) references (superbowl) 
+);
+
+insert into nfl
+(timesNfc, timesAfc, season, superbowl, campeaoNfc, campeaoAfc)
+values
+('Cowboys, Giants, Eagles, Commanders‎, Bears, Lions, Packers, Vikings, Falcons, Panthers, Saints, Buccaneers, Cardinals, Rams, 49ers, Seahawks', 'Bills, Dolphins,
+Patriots, Jets, Ravens, Bengals, Browns, Steelers, Texans, Colts, Jaguars, Titans, Broncos, Chiefs, Raiders, Chargers', '21-22', 'LIV', 'Buccaneers', 'Chiefs');
+
+
+create table superbowl(
+	edicaoSB int primary key, 
+	superbowlMvp varchar, 
+	estádio varchar,
+	data date
+);
+insert into suerbowl
+(edicaoSB, superbowlMvp, estádio, data)
+values
+('LIV', 'Patrick Mahomes', 'AT&T Stadium', 2022-02-17); 
+
+
+create table premiosindividuais (
+	foreign key (temporada) references (nfl),
+	temporada varchar foreign key,
+	leagueMvp varchar, 
+	rookieoty varchar, 
+	defensiverookieoty varchar,
+	offensiverookieoty varchar
+	
+);
+
+insert into premiosindividuais
+(leagueMvp, rookieoty, defensiverookieoty, offensiverookieoty)
+values
+('Aaron Rodgers', 'Ja'marr Chase', 'Clyde E. Hillaire.', 'Chase Young');
+
+
+select * from nfl inner join superbowl on nfl.superbowltag = superbowl.edicaoSB inner join premiosindividuais on nfl.season = premiosindividuais.temporada
+
+
+
+
+
+
+
+
