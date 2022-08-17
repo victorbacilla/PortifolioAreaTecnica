@@ -25,7 +25,7 @@ Eu sou Victor Bacilla de Jesus, tenho 16 anos e sou da sala 3A. Estou cursando D
 - [CódigoAprendendoIfScanner](lógicacomputacional/exercício.java)
 
 
-## FUNDS TI 2A
+## Fundamentos de TI 2A
 - [Exemplolink](FundamentosTI/exemplo.sh)
 
 - [ExercíciosdeShellScript](FundsTI/exercícioshellscript06.07.sh)
