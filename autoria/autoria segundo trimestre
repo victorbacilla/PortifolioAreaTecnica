@@ -1,0 +1,20 @@
+# Revisão
+## Recycler view:
+É uma nova view que permite que todos os atributos apareçam e sejam "scrollaveis";
+É preciso de um adaptador para adapte a classe ao card(classe); Este adaptador se chama Fragmente Adapter.
+ex.: whatsapp
+- VIEW PAGER TWO e TAB LAYOUT, dividimos uma activity em fragmentos, msm tela. 
+- PRA FAZER ELE FUNCIONAR/ pra vincular a activity com os fragmentos precisa de um adaptador que é uma classe que necessita ser criada o FRAGMENTE ADAPTER o adaptador precisa de dos fragmentos de tela pra funcionar. 
+- SUIT CASE que defini a posição de cada fragmento  no view pager  ex: suit 1, posição 1 que e precisa  método pra habilitar o arrastar pro lado e o método tab.
+- Comandos:
+- getItemCount () // quantos fragmentos usar
+
+- CreateFragment () //Aqui vai o switch
+
+- setAdapter (no view pager)
+
+- OnTabSelected (setar o item atual
+
+- através da posição)
+
+- selectTab(no tab layout
